@@ -1,3 +1,7 @@
+# Language: Python 3.x
+# Author: Xiaoqi Zhao
+# Author Email: xiaoqizhao@outlook.com
+
 import math
 import json
 import ast
