@@ -73,7 +73,7 @@ for i in range (2,term+1):
     })
     last_term_outstanding_rental = this_term_outstanding_rental
 
-print(std_repayment_plan["monthly_payment"]["term"])
+# print(std_repayment_plan["monthly_payment"]["term"])
 # get_nested(std_repayment_plan, "monthly_payment", "term")
 
 data = json.dumps(std_repayment_plan, indent=4)
@@ -81,10 +81,8 @@ data = json.dumps(std_repayment_plan, indent=4)
 # print(data["monthly_payment"])
 # print(type(std_repayment_plan))
 
-"""
-with open('std_repayment_plan.txt', 'w') as outfile:
+with open('std_repayment_plan.json', 'w') as outfile:
     json.dump(std_repayment_plan, outfile)
-"""
 
 """
 val = ast.literal_eval(std_repayment_plan)
