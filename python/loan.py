@@ -5,7 +5,7 @@
 import math
 import json
 import ast
-import pandas as pd
+# import pandas as pd
 
 def get_nested(data, *args):
     if args and data:
