@@ -89,4 +89,5 @@ val = ast.literal_eval(std_repayment_plan)
 val1 = json.loads(json.dumps(val))
 val2 = val1['monthly_payment'][0]['rental']
 print(pd.DataFrame(val2, columns=['rental']))
+print("thanks for using financial calculator, enjoy the day!")
 """
